@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/* global reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* global variables */
+:root {
+    /* spacing */
+    --sm: 2%;
+    --md: 5%;
+    --lg: 10%;
+
+    /* dev borders */
+    --wireframe: 2px solid darkblue;
+    --debugging: 2px dotted darkred;
+    --component: 2px solid darkgreen;
+
+    --headerOpacity: 1;
+    --headerScale: 1;
+
+    /* font style */
+    --font: 'Poppins', sans-serif;
+    --font2: 'Work Sans', sans-serif;
+
+    /* colors */
+    
+    /* light mode | darkmode */
+    /* --mode: #000;
+    --mode-background: #FFF;
+    --mode-overlay: rgba(241,237,237,0.4);
+    --mode-transparent: rgba(0,0,0,0.19);
+    --mode-transparent: rgba(255, 255, 255, 0.19); */
+
+    /* --color: var(--mode); */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper-y {
+    height: 100vh;
+    width: 100vw;
+    
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+}
+
+.wrapper-x {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+    width: 100vw;
+    
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.section-x,
+.section-y {
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.section-x, .section-y {
+    
+
+    /* set min width for x value */
+    
+    scroll-snap-align: center;
+
+    /* border: 2px solid red; */
+}
+
+/* .section-y:nth-child(1) {background: red;}
+.section-y:nth-child(2) {background: orange;}
+.section-y:nth-child(3) {background: purple;}
+.section-y:nth-child(4) {background: blue;}
+
+.section-y:nth-child(1) {background: green;}
+.section-y:nth-child(2) {background: yellow;}
+.section-y:nth-child(3) {background: pink;}
+.section-y:nth-child(4) {background: lightcoral;} */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+    color: #FFF;
+}
+
+
+@media (min-width: 700px) {
+
+    .section-x {
+        height: 100vh;
+        width: 50vw;
+        min-width: 50vw;
+    
+    }
+    .section-y {
+        height: 100vh;
+        width: 100vw;
+        min-width: 100vw;
+    }
+}
