@@ -47,6 +47,7 @@ html {
     width: 100vw;
     
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-snap-type: y mandatory;
 
 }
@@ -59,7 +60,10 @@ html {
     width: 100vw;
     
     overflow-x: scroll;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
+
+    /* scrollbar-width: none; */
 }
 
 .section-x,
@@ -69,8 +73,8 @@ html {
 }
 
 .section-x, .section-y {
+    scrollbar-width: none;
     
-
     /* set min width for x value */
     
     scroll-snap-align: center;
@@ -112,3 +116,23 @@ section {
         min-width: 100vw;
     }
 }
+
+@media (min-width: 800px) {
+
+    .section-x:nth-child(1) {
+        width: 30vw;
+        min-width: 30vw;
+    }
+    .section-x {
+        height: 100vh;
+        width: 50vw;
+        min-width: 50vw;
+    
+    }
+    .section-y {
+        height: 100vh;
+        width: 100vw;
+        min-width: 100vw;
+    }
+}
+

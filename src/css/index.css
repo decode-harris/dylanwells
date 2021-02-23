@@ -541,9 +541,32 @@ article .text {
 } */
 
 
+.wrapper-x .section-x:nth-child(1) {
+    width: 35vw;
+    max-width: 35vw;
+    
 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
+    /* dev */
+    /* background: red; */
+}
+.wrapper-x .section-x:nth-child(2) {
+    
 
+    overflow: hidden;
+
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+    
+}
+.wrapper-x .section-x:nth-child(2) img {
+    width: 100%;
+}
 
 
 
@@ -558,37 +581,33 @@ article .text {
         4. p [ text ] x2
 
 */
-article {
+/* article {
     height: 100vh;
+    min-width: 35vw;
+    max-width: 35vw;
 
-    /* display props [ flex - center - center ] */
     display: flex;
     justify-content: center;
     align-items: center;
 
-
+    
 }
 
 article .elmnts {
-    /* display props [ flex - center - center ] */
+    
     display: flex;  
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    /* dimensions */
+    
     height: 100%;
     width: 100%;
 
 
-    /* dev */
-    /* border: var(--debugging); */
+    
 }
-article .elmnts:nth-child(2) {
-    align-items: flex-start;
-    padding: var(--md);
 
-}
 article .title {
     font-size: 2rem;
     text-transform: uppercase;
@@ -597,15 +616,12 @@ article .title {
 
     padding-bottom: var(--sm);
 
-    /* dev */
-    /* border: var(--component); */
+    
 }
 article .text {
 
     padding-bottom: var(--sm);
     
-    /* dev */
-    /* border: var(--debugging); */
 }
 article ul {
     
@@ -618,13 +634,12 @@ article ul {
 
     list-style-type: none;
 
-    /* dimensions */
+    
     height: 100%;
     width: 100%;
 
 
-    /* dev */
-    /* background: red; */
+    
 }
 article ul li {
     display: flex;
@@ -635,15 +650,67 @@ article ul li {
     text-transform: uppercase;
     letter-spacing: 0.20rem;
 
-    /* dev */
-    /* border: var(--component); */
+    
 }
 
 article ul i {
     font-size: 3.2rem;
     padding-right: var(--lg);
+} */
+
+/* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
+/* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
+.introduction {
+    min-width: 100vw;
+}
+article {
+    /* min-width: 100vw; */
+
+    display: flex;
+    height: 100vh;
+    min-width: 35vw;
+    max-width: 35vw;
+
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+article .elmnts {
+    
+    /* border: 2px solid red; */
+}
+article .elmnts:nth-child(1) {
+    /* background: pink; */
+}
+article .elmnts:nth-child(1) {
+    /* background: blue; */
+
+    
+}
+article ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+article ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
 }
 
+/* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
+/* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
 
 
 
@@ -658,42 +725,27 @@ article ul i {
         2. div [ project-type ]
         3. div [ content-project ] banner image
 */
-section {
+/* section {
 
-    /* display props [ flex - center - center ] */
+
     display: flex;
     justify-content: center;
     align-items: center;
 
 
-    /* dimensions */
+
     min-height: 100vh !important;
     height: 100vh;
 
     width: 100%;
 
-    /* min-width: 200vw; */
 
-    /* dev */
-    border: var(--wireframe);
 
-    /* overflow props */
+
     overflow: auto;
 
-    /* background: lightcoral; */
-    /* color: #FFF; */
 
-    
-
-    /* border-top: 1px solid rgb(110, 110, 110);
-    border-bottom: 1px solid rgb(110, 110, 110); */
-    
-    /* margin-bottom: var(--md); */
-
-    /* DEVELOPER REMOVAL */
-    /* display: none; */
-    
-}
+} */
 section .content-information,
 section .content-project {
     height: 100%;
@@ -826,7 +878,9 @@ footer ul li  {
 
 
 
-
+.section-x img {
+    min-width: 100%;
+}
 img {
     max-height: 100vh;
     max-width: 100vh;
