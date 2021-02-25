@@ -299,11 +299,37 @@ article .text {
 
 
 
+.wrapper-x .section-x:nth-child(5) {
+    width: 100%;
+}
 
 
 
+/* global image props */
+/* img {
+    max-width: 100vw;
+    max-height: 100vh;
 
+    height: 100vh;
+    width: 100vw;
+} */
 
+img {
+    height: 100vh;
+}
+
+#everist_render_01 {
+    width: 100vw;
+}
+#everist_render_02 {
+    width: 100%;
+}
+.working-drawing-container {
+    min-width: 200vw;
+}
+.working-drawings {
+    width: 100%;
+}
 
 
 
@@ -541,6 +567,16 @@ article .text {
 } */
 
 
+/* 
+    global image props
+
+*/
+
+/* img {
+    height: 100%;
+    width: 100%;
+} */
+
 .wrapper-x .section-x:nth-child(1) {
     width: 35vw;
     max-width: 35vw;
@@ -556,7 +592,7 @@ article .text {
 .wrapper-x .section-x:nth-child(2) {
     
 
-    overflow: hidden;
+    /* overflow: hidden; */
 
     /* display: flex;
     justify-content: flex-start;
@@ -564,9 +600,9 @@ article .text {
 
     
 }
-.wrapper-x .section-x:nth-child(2) img {
+/* .wrapper-x .section-x:nth-child(2) img {
     width: 100%;
-}
+} */
 
 
 
@@ -878,13 +914,8 @@ footer ul li  {
 
 
 
-.section-x img {
-    min-width: 100%;
-}
-img {
-    max-height: 100vh;
-    max-width: 100vh;
-}
+
+
 
 
 

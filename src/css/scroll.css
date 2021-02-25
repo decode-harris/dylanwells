@@ -106,7 +106,7 @@ section {
 
     .section-x {
         height: 100vh;
-        width: 50vw;
+        width: 100%;
         min-width: 50vw;
     
     }
@@ -119,7 +119,12 @@ section {
 
 @media (min-width: 800px) {
 
-    .section-x:nth-child(1) {
+    .wide-image {
+        width: 100%;
+    }
+
+
+    /* .section-x:nth-child(1) {
         width: 30vw;
         min-width: 30vw;
     }
@@ -133,6 +138,6 @@ section {
         height: 100vh;
         width: 100vw;
         min-width: 100vw;
-    }
+    } */
 }
 
