@@ -198,16 +198,15 @@ article {
     min-height: 80vh;
 }
 article h2 {
-    padding-left: var(--sm);
+    
     text-transform: uppercase;
     padding-bottom: var(--sm); 
     font-size: 1.75rem;
 }
 article .text {
     line-height: 1.6;
-    font-size: 0.95rem;
-    letter-spacing: 0.12rem;
-    max-width: 300px;
+    font-size: 0.85rem;
+    text-align: left;
     padding-left: var(--sm);
 }
 
@@ -237,7 +236,7 @@ article .text {
 
 
 .helper {
-    font-size: 1.4rem;
+    font-size: 1.05rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
 
@@ -314,7 +313,7 @@ article .text {
     width: 100vw;
 } */
 
-img {
+/* img {
     height: 100vh;
 }
 
@@ -329,103 +328,108 @@ img {
 }
 .working-drawings {
     width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article .text-hidden {
+
+    padding-top: var(--md);
+    /* dev */
+    border: 2px solid red;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.introduction .desktop_introduction {
+    display: none;
+}
 
 
 
@@ -437,6 +441,34 @@ img {
 
 /* media query [ desktop ] */
 @media (min-width: 760px) {
+
+    .introduction .desktop_introduction {
+        display: flex;
+    }
+    .introduction .mobile_introduction {
+        display: none;
+    }
+
+    /* .section-x {border: 2px solid red;} */
+
+    .working-drawing-container {
+        min-width: 100vw;
+    }
+    
+    .section-x img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #thouse_render {
+        /* margin-left: var(--sm); */
+
+        /* set via javascript *//* set via javascript *//* set via javascript */
+        /* set via javascript *//* set via javascript *//* set via javascript */
+        
+        min-width: 66vw;
+    }
     /* 
     header component
 
@@ -577,6 +609,104 @@ img {
     width: 100%;
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction {
+    /* background: red; */
+
+    min-width: 100%;
+
+    flex-direction: row;
+}
+
+/* .introduction .elmnts {
+    background: blue;
+    border: 2px solid #000;
+
+    
+} */
+
+
+.introduction #introduction-mobile {
+    display: none;
+}
+.introduction #introduction-desktop {
+    display: flex;
+}
+
+
+.introduction .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+
+    
+    /* dev */
+    /* border: 2px solid darkgreen; */
+}
+.introduction h6 {
+    font-size: 1rem;
+    /* padding-left: var(--lg); */
+
+    width: 10%;
+    
+
+    /* dev */
+    /* border: 2px solid red; */
+}
+
+
+
+article ul {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+article ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-bottom: calc(var(--sm) * 1.5); */
+
+    padding-bottom: calc(var(--sm) * 1.5);
+    /* dev */
+    /* border: 2px solid #000; */
+}
+
+
+
+.introduction ul li {
+    background: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .wrapper-x .section-x:nth-child(1) {
     width: 35vw;
     max-width: 35vw;
@@ -696,55 +826,60 @@ article ul i {
 
 /* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
 /* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
-.introduction {
+/* .introduction {
     min-width: 100vw;
-}
+} */
 article {
-    /* min-width: 100vw; */
-
-    display: flex;
-    height: 100vh;
-    min-width: 35vw;
-    max-width: 35vw;
-
-    max-width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-article .elmnts {
     
-    /* border: 2px solid red; */
-}
-article .elmnts:nth-child(1) {
-    /* background: pink; */
-}
-article .elmnts:nth-child(1) {
-    /* background: blue; */
 
-    
-}
-article ul {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 
     height: 100%;
     width: 100%;
-}
-article ul li {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    min-width: 33vw;
+    max-width: 33vw;
 
-    height: 100%;
-    width: 100%;
+    
+
+    
+    
+
+    background: #FFF
+
+}
+article h2 {
+
+    padding: 0;
+    margin: 0;
+
+    padding-bottom: var(--lg);
+    /* dev */
+    /* border: 2px solid darkblue; */
+}
+article .text {
+    
+    text-align: center;
+    /* max-width: 400px; */
+
+
+    padding: var(--sm) var(--lg);
+    /* border: 2px solid darkblue; */
+    
+}
+article .text-hidden {
+    padding-top: var(--sm);
+
+    border: none;
 }
 
+.introduction .elmnts {
+    /* background: red; */
+
+    
+    justify-content: space-around;
+}
 /* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
 /* new code [ article component - introduction *//* new code [ article component - introduction *//* new code [ article component - introduction */
 
@@ -867,8 +1002,12 @@ section .content-project {
 
 
 
+.icon,
+.icon img {
+    max-width: 70px;
+    max-height: 70px;
 
-
+}
 
 
 
@@ -914,6 +1053,11 @@ footer ul li  {
 
 
 
+
+/* working drawings */
+.working-drawing-container {
+    min-width: 200vw;
+}
 
 
 
