@@ -251,3 +251,77 @@ down.addEventListener('click', ()=> {
 
 
 });
+
+
+
+
+// function touch2Mouse(e)
+// {
+// var theTouch = e.changedTouches[0];
+// var mouseEv;
+
+// switch(e.type)
+// {
+//     case "touchstart": mouseEv="mousedown"; break;  
+//     case "touchend":   mouseEv="mouseup"; break;
+//     case "touchmove":  mouseEv="mousemove"; break;
+//     default: return;
+// }
+
+
+// // depricated function parameteres [ change below ]
+// var mouseEvent = document.createEvent("MouseEvent");
+// mouseEvent.initMouseEvent(mouseEv, true, true, window, 1, theTouch.screenX, theTouch.screenY, theTouch.clientX, theTouch.clientY, false, false, false, false, 0, null);
+// theTouch.target.dispatchEvent(mouseEvent);
+
+// e.preventDefault();
+
+// console.log('touch2mouse active');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// touch events [ desktop ]
+
+// environmental_ID.addEventListener('touchstart', process_touchstart, false);
+
+// someElement.addEventListener('touchmove', process_touchmove, false);
+
+// someElement.addEventListener('touchcancel', process_touchcancel, false);
+
+// someElement.addEventListener('touchend', process_touched, false);
+
+
+// function [ process_touchstart ]
+// function process_touchstart(e) {
+
+//     // prevent default actions
+//     e.preventDefault();
+
+//     // test
+//     console.log('touchstart : ' + 'element one');
+    
+
+// }
+
+
+
