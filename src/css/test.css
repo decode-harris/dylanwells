@@ -120,7 +120,7 @@ section {
     color: #000;
 
     /* dev */
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
     
 }
 .section-y {
@@ -172,7 +172,7 @@ section {
     height: 100%;
 
     /* dev */
-    border: 2px solid darkblue;
+    /* border: 2px solid darkblue; */
 }
 
 /* project image properties */
@@ -215,7 +215,7 @@ h2 {
     font-size: 1.25rem;
 
     /* dev */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .text-hidden {
     display: none;

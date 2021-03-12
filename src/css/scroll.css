@@ -65,7 +65,6 @@ html {
     scrollbar-width: none;
 }
 
-
 .section-x,
 .section-y {
     height: 100vh;
@@ -73,11 +72,11 @@ html {
 }
 
 .section-x, .section-y {
-    scrollbar-width: none;
     
-    /* set min width for x value */
     
+    /* scroll snap align for each section container */
     scroll-snap-align: center;
+    scrollbar-width: none;
 
     /* border: 2px solid red; */
 }
@@ -98,7 +97,7 @@ section {
     align-items: center;
 
     font-size: 3rem;
-    color: #FFF;
+    
 }
 
 
