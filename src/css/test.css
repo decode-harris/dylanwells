@@ -308,7 +308,7 @@ section .text {
     padding-bottom: var(--md);
     text-align: center;
     /* padding: calc(var(--lg) * 2); */
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.6;
 
     /* dev */
@@ -453,6 +453,91 @@ section .text {
     margin-left: var(--sm);
     
 }
+#contact .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 10px;
+    padding: var(--sm);
+
+    list-style-type: none;
+    
+    
+}
+
+#contact .list a {
+    color: #FFF;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 100%;
+    width: 100%;
+
+    padding-top: var(--sm);
+    padding-bottom: var(--sm);
+
+    font-size: 1rem;
+    text-transform: capitalize;
+
+    transition: 500ms ease-in all;
+}
+#contact .list li {
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: 0.1rem solid #000;
+    border-radius: 10px;
+
+
+    color: #FFF;
+
+    opacity: 0.9;
+
+    transition: 0.3s ease-in all;
+}
+#contact .list li:nth-child(1) {
+    background: rgb(249,155,153);
+    background: radial-gradient(circle, rgba(249,155,153,1) 0%, rgba(239,83,80,1) 48%);
+
+    background: rgb(241,238,10);
+    background: linear-gradient(25deg, rgba(241,238,10,1) 0%, rgba(255,80,80,1) 100%);
+}
+#contact .list li:nth-child(2) {
+    
+    
+    background: rgb(235,0,30);
+    background: linear-gradient(0deg, rgba(235,0,30,1) 0%, rgba(219,0,76,1) 48%, rgba(193,0,156,1) 95%);
+}
+#contact .list li:nth-child(3) {
+    
+
+    background: rgb(80,217,255);
+    background: linear-gradient(25deg, rgba(80,217,255,1) 0%, rgba(40,168,234,1) 25%, rgba(3,100,184,1) 50%, rgba(20,144,223,1) 75%, rgba(80,217,255,1) 100%);
+    
+}
+#contact .list li:nth-child(4) {
+    background: rgb(255,33,33);
+    background: linear-gradient(25deg, rgba(255,33,33,1) 0%, rgba(142,32,32,1) 100%);
+}
+
+#contact .list i {
+    font-size: rem;
+}
+
+#contact .text {
+    font-size: 0.65rem;
+
+    padding-top: var(--sm);
+    padding-bottom: var(--sm);
+    
+}
+.link-name {display: none;}
 
 
 /* 
@@ -556,7 +641,7 @@ section .text {
     /* fixed pasted views  */
     /* fixed pasted views  */
     /* fixed pasted views  *//* fixed pasted views  *//* fixed pasted views  */
-
+    .link-name {display: block;}
 
     /* slide heading content */
 h2 {
@@ -821,31 +906,7 @@ h2 {
         animation-iteration-count: infinite;
     }
     
-    #contact .list li:nth-child(1) {
-        background: rgb(249,155,153);
-        background: radial-gradient(circle, rgba(249,155,153,1) 0%, rgba(239,83,80,1) 48%);
-
-        background: rgb(241,238,10);
-        background: linear-gradient(25deg, rgba(241,238,10,1) 0%, rgba(255,80,80,1) 100%);
-    }
-    #contact .list li:nth-child(2) {
-        
-        
-        background: rgb(235,0,30);
-        background: linear-gradient(0deg, rgba(235,0,30,1) 0%, rgba(219,0,76,1) 48%, rgba(193,0,156,1) 95%);
-    }
-    #contact .list li:nth-child(3) {
-        
-    
-        background: rgb(80,217,255);
-        background: linear-gradient(25deg, rgba(80,217,255,1) 0%, rgba(40,168,234,1) 25%, rgba(3,100,184,1) 50%, rgba(20,144,223,1) 75%, rgba(80,217,255,1) 100%);
-        
-    }
-    #contact .list li:nth-child(4) {
-        background: rgb(255,33,33);
-        background: linear-gradient(25deg, rgba(255,33,33,1) 0%, rgba(142,32,32,1) 100%);
-    }
-    
+    /* link button spans */
     .link-btn {
         background: rgba(0, 0, 0, 0.5);
         min-width: 175px;
@@ -860,6 +921,8 @@ h2 {
         font-size: 2.25rem;
     }
     
+
+    /* contact information */
     #contact h2 {
         margin-top: var(--sm);
         margin-bottom: var(--sm);
