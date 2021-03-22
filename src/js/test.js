@@ -51,6 +51,8 @@ var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   spaceBetween: 10,
 
+  freemode: true,
+
   breakpoints: {
 
     600: {
@@ -60,8 +62,8 @@ var swiper = new Swiper('.swiper-container', {
     },
     960: {
       slidesPerView: 3,
-      spaceBetween: 20,
-    }
+      spaceBetween: 0,
+    },
     
 
   },
@@ -81,6 +83,47 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
+});
+
+var swiperWide = new Swiper('.swiper-container-wide', {
+
+  // default parameters
+  slidesPerView: 1,
+  spaceBetween: 0,
+
+  freemode: true,
+
+  breakpoints: {
+
+    600: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    960: {
+      slidesPerView: 'auto',
+      spaceBetween: 0,
+
+      
+    },
+  },
+
+  scrollbar: {
+
+    el: '.swiper-scrollbar',
+    hide: true,
+    
+  },
+
+  navigation: {
+
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+  
+
+  
 });
 
 

@@ -49,6 +49,8 @@ html {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 
+    position: relative;
+
 }
 
 .wrapper-x {

@@ -58,7 +58,7 @@ window.onload = mql = (e)=> {
         moreFacility.style.display = 'none';
         moreMalt.style.display = 'none';
         
-        thouse_render.setAttribute('src', 'src/assets/images/T_House/render-desktop.jpg');
+        // thouse_render.setAttribute('src', 'src/assets/images/T_House/render-desktop.jpg');
         
         thouse_containers.forEach(element => {
 
@@ -96,7 +96,7 @@ window.onload = mql = (e)=> {
         });
         
         // test image
-        console.log(thouse_render.src);
+        // console.log(thouse_render.src);
 
         // test media query
         console.log('[ mql ] : desktop media query');
@@ -253,6 +253,16 @@ down.addEventListener('click', ()=> {
 });
 
 
+
+const email = document.querySelector('#email');
+
+email.addEventListener('click', ()=> {
+
+    email.setAttribute('src', 'mailto:dylanwells@hotmail.com');
+
+    console.log('email ev ' + email.src);
+
+});
 
 
 // function touch2Mouse(e)
