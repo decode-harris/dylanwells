@@ -13,74 +13,99 @@
 
     <script defer src="src/js/index.js"></script>
 
+    <script defer src="src/js/nav.js"></script>
+
     <!-- font awesome testing icons -->
     <script src="https://kit.fontawesome.com/4dff4a55ad.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-<!-- wrapper y -->
-<div class="wrapper-y">
-    <!-- nav -->
-    <nav class="nav">
-        
-        <!-- navbar -->
-        <ul class="navbar">
-            <li>
-                <!-- space -->
-                <div class="space">
+<!-- nav -->
+<nav class="nav">
+    
+    <!-- navbar -->
+    <ul class="navbar">
 
-                <!-- navbar title -->
-                <h5>dylan</h5>
-                <h5>wells</h5>
-                <!-- navbar title -->
-                
-                </div>
-                <!-- space -->
-                
-            </li>
-            <li>
-                <a href="#home">
-                    home
-                </a>
-            </li>
-            <li>
-                <a href="#introduction">
-                    projects
-                </a>
-            </li>
+        <!-- navbar li -->
+        <li>
+            <!-- space -->
+            <div class="space">
+
+            <!-- navbar title -->
+            <h5>dylan</h5>
+            <h5>wells</h5>
+            <!-- navbar title -->
             
-            <li>
-                <a href="#contact">
-                    resume
-                </a>
-            </li>
+            </div>
+            <!-- space -->
+            
+        </li>
+        <li>
+            <div class="box"></div>
 
-            <li>
-                <a href="#contact">
-                    portfolio
-                </a>
-            </li>
-            <li>
-                <a href="#contact">
-                    instagram
-                </a>
-            </li>
-        </ul>
-        <!-- navbar -->
+        </li>
+        <li>
+            <a href="#home" class="link">
+                home
+            </a>
+        </li>
+        <li>
+            <a href="#env" class="link">
+                projects
+            </a>
+        </li>
         
-    </nav>
-    <!-- nav -->
+        <li>
+            <a href="#contact" class="link">
+                resume
+            </a>
+        </li>
 
-    <tag>
+        <li>
+            <a href="#contact" class="link">
+                portfolio
+            </a>
+        </li>
+        <!-- <li>
+            <a href="#contact" class="link">
+                instagram
+            </a>
+        </li> -->
+        <!-- navbar li -->
+    
+    </ul>
+    <!-- navbar -->
+    
+</nav>
+<!-- nav -->
 
-    </tag>
+<!-- wrapper y -->
+<div class="wrapper-y" >
 
     <!-- section y [ landing page ] -->
     <section class="section-y">
 
         <!-- header -->
-        <header class="header">
+        <header class="header" id="home">
+
+            <!-- navigation [ mobile ] -->
+            <div class="navigation">
+
+                <h5>dylan wells</h5>
+
+                <button class="btn menu" id="menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- btn exit -->
+                <button class="btn exit" id="exit">
+                    <i class="fas fa-times"></i>
+                </button>
+                <!-- btn exit -->
+
+            </div>
+            <!-- navigation [ mobile ] -->
 
             <!-- [ header-video ] -->
             <div class="header-video">
@@ -111,28 +136,24 @@
 
                 </div>
                 <!-- darkbox -->
-                
-
-                
-
-                    <!-- btn down -->
-                    <button class="down" id="down">
-                        <!-- link -->
-                        <a href="#introduction">
-                            
-                            <!-- down arrow -->
-                            <i class="fas fa-caret-down"></i>
-                            <!-- down arrow -->
-                            
-                        </a>
-                        <!-- link -->
-                        
-                    </button>
-                    <!-- btn down -->
-
-                
+            
             </div>
             <!-- overlay -->
+
+            <!-- btn down -->
+            <button class="down" id="down">
+                <!-- link -->
+                <a href="#introduction">
+                    
+                    <!-- down arrow -->
+                    <i class="fas fa-caret-down"></i>
+                    <!-- down arrow -->
+                    
+                </a>
+                <!-- link -->
+                
+            </button>
+            <!-- btn down -->
 
         </header>
         <!-- header -->
@@ -146,174 +167,206 @@
         <!-- article [ content ] -->
         <article class="content">
 
-            <h2>introduction</h2>
+            <!-- content panels -->
+            <div class="content-panels">
+                <!-- title -->
+                <h2>introduction</h2>
+                <!-- title -->
+            </div>
+            <div class="content-panels">
+                <!-- intro text -->
+                <p>
+                    I am an aspiring Draftsperson & Architect; I have successfully completed my Advanced diploma of Building Design (Architectural)
+                    and coming close to finalizing my Bachelor of Design: Architecture degree in 2021. I have a strong passion for Architectural Drafting
+                    and Architectural design. I am looking for a workplace that is welcoming and open for my personal development in this field of work.
+                </p>
+                <!-- intro text -->
 
-            <!-- intro text -->
-            <p>
-                I am an aspiring Draftsperson & Architect; I have successfully completed my Advanced diploma of Building Design (Architectural)
-                and coming close to finalizing my Bachelor of Design: Architecture degree in 2021. I have a strong passion for Architectural Drafting
-                and Architectural design. I am looking for a workplace that is welcoming and open for my personal development in this field of work.
-                
+            </div>
+            <div class="content-panels">
 
-            </p>
-            <p class="text-hidden">
-                My work ethic follows my passion, a hard-working individual that seeks enjoyment for the journey and the finished product, a polished 
-                and appro¬priate set of work that follows the companies standards and allows for appropriate and successful work practices. A valuable
-                member of work culture, a proficient user of drafting programs as shown below. An extensive knowl¬edge of Microsoft Office applications,
-                a well-spoken individual that sets out to achieve the most, a high achiever, one of many qualities that i follow on the pathway to my
-                defined view on success. This mindset follows suite with my passion for the industry.
-            </p>
-            <!-- intro text -->
+                <!-- hidden text -->
+                <p class="text-hidden">
+                    My work ethic follows my passion, a hard-working individual that seeks enjoyment for the journey and the finished product, a polished 
+                    and appro¬priate set of work that follows the companies standards and allows for appropriate and successful work practices. A valuable
+                    member of work culture, a proficient user of drafting programs as shown below. An extensive knowl¬edge of Microsoft Office applications,
+                    a well-spoken individual that sets out to achieve the most, a high achiever, one of many qualities that i follow on the pathway to my
+                    defined view on success. This mindset follows suite with my passion for the industry.
+                </p>
+                <!-- hidden text -->
 
+            </div>
+            <!-- content panels -->
+        
         </article>
 
         <article class="content">
 
-            <h2>qualifications</h2>
+            <!-- content panels -->
+            <div class="content-panels">
+                <!-- title -->
+                <h2>qualifications</h2>
+                <!-- title -->
+            </div>
+            <div class="content-panels">
 
-            <ul class="qual">
-                
+                <!-- qualifications list -->
+                <ul class="qual">
 
-                <li class="items">
-
-                    <!-- sublist title -->
-                    <h4>Advanced Diploma of Building Design (Architectural)</h4>
-                    <!-- sublist title -->
-
-                    <!-- sublist -->
-                    <ul class="sublist">
-                        
-                        <!-- sublist item -->
-                        <li> - Design Development</li>
-                        <li> - Town Planning / Site Analysis</li>
-                        <li> - Working Drawings (Site plan, Floor plans, Details, Sections, Elevations, Joinery / details</li>
-                        <li> - Tendering</li>
-                        <li> - Contract Administration</li>
-                        <li> - Knowledge of BCA & Australian Standards</li>
-                        <li> - Client & Contractor Communications</li>
-                        <!-- sublist item -->
-
-                        
-                    </ul>
-                    <!-- sublist -->
-
-                </li>
-                <li class="items">
-
-                    <!-- sublist title -->
-                    <h4>Bachelor of Design (Architecture) - In Progress</h4>
-                    <!-- sublist title -->
-
-                    <!-- sublist -->
-                    <ul class="sublist">
-
-                        <!-- items -->
-                        <li> - Further development of Site Analysis (Architectural Influenced)</li>
-                        <li> - Further development of Schematic Plans (Site plans, Floor plans, Sections, Elevations & Renders)</li>
-                        <li> - Cliental Meetings / Design Board Presentations</li>
-                        <!-- items -->
-                    </ul>
-                    <!-- sublist -->
-
-                </li>
-            </ul>
+                    <!-- items -->
+                    <li class="items">
+    
+                        <!-- sublist title -->
+                        <h4>Advanced Diploma of Building Design (Architectural)</h4>
+                        <!-- sublist title -->
+    
+                        <!-- sublist -->
+                        <ul class="sublist">
+                            
+                            <!-- sublist item -->
+                            <li> - Design Development</li>
+                            <li> - Town Planning / Site Analysis</li>
+                            <li> - Working Drawings (Site plan, Floor plans, Details, Sections, Elevations, Joinery / details</li>
+                            <li> - Tendering</li>
+                            <li> - Contract Administration</li>
+                            <li> - Knowledge of BCA & Australian Standards</li>
+                            <li> - Client & Contractor Communications</li>
+                            <!-- sublist item -->
+    
+                            
+                        </ul>
+                        <!-- sublist -->
+    
+                    </li>
+                    <li class="items">
+    
+                        <!-- sublist title -->
+                        <h4>Bachelor of Design (Architecture) - In Progress</h4>
+                        <!-- sublist title -->
+    
+                        <!-- sublist -->
+                        <ul class="sublist">
+    
+                            <!-- items -->
+                            <li> - Further development of Site Analysis (Architectural Influenced)</li>
+                            <li> - Further development of Schematic Plans (Site plans, Floor plans, Sections, Elevations & Renders)</li>
+                            <li> - Cliental Meetings / Design Board Presentations</li>
+                            <!-- items -->
+                        </ul>
+                        <!-- sublist -->
+    
+                    </li>
+                    <!-- items -->
+                </ul>
+                <!-- qualifications list -->
+            </div>
+            <!-- content panels -->
 
         </article>
         <!-- article [ content ] -->
 
         <!-- article [ content ] -->
         <article class="content">
-            <!-- list title -->
-            <h2>proficient in</h2>
-            <!-- list title -->
+
+            <!-- control panels -->
+            <div class="content-panels">
+                <!-- list title -->
+                <h2>proficient in</h2>
+                <!-- list title -->
+            </div>
+            <div class="content-panels">
+                <!-- list -->
+                <ul class="list">
+                    
+                    <!-- item -->
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/revit.png" alt="icon : revit" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->
+
+                        <!-- icon description -->
+                        <h6>revit</h6>
+                        <!-- icon description -->
+                    </li>
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/autocad.png" alt="icon : autocad" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->
+
+                        <!-- icon description -->
+                        <h6>autocad</h6>
+                        <!-- icon description -->
+                    </li>
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/Lumion.png" alt="icon : Lumion" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->
+
+                        <!-- icon description -->
+                        <h6>Lumion</h6>
+                        <!-- icon description -->
+                    </li>
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/photoshop.png" alt="icon : photoshop" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->  
+
+                        <!-- icon description -->
+                        <h6>photoshop</h6>
+                        <!-- icon description -->
+                        
+                    </li>
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/indesign.png" alt="icon : indesign" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->
+
+                        <!-- icon description -->
+                        <h6>in-design</h6>
+                        <!-- icon description -->
+
+                    </li>
+                    <li class="item">
+                        <!-- icon -->
+                        <div class="icon"style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                            <img src="src/assets/icons/office.png" alt="icon : office" style="width: 100px; height: 100px">
+                            <!-- icon img -->
+                        </div>
+                        <!-- icon -->
+
+                        <!-- icon description -->
+                        <h6>office</h6>
+                        <!-- icon description -->
+                    </li>
+                    <!-- item -->
+                </ul>
+                <!-- list -->
+            </div>
+            <!-- control panels -->
             
-         <!-- list -->
-         <ul class="list">
             
-            <!-- item -->
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/photoshop.png" alt="icon : photoshop" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->  
-
-                <!-- icon description -->
-                <h6>photoshop</h6>
-                <!-- icon description -->
-                
-            </li>
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/autocad.png" alt="icon : autocad" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->
-
-                <!-- icon description -->
-                <h6>autocad</h6>
-                <!-- icon description -->
-            </li>
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/revit.png" alt="icon : revit" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->
-
-                <!-- icon description -->
-                <h6>revit</h6>
-                <!-- icon description -->
-            </li>
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/Lumion.png" alt="icon : Lumion" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->
-
-                <!-- icon description -->
-                <h6>Lumion</h6>
-                <!-- icon description -->
-            </li>
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/office.png" alt="icon : office" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->
-
-                <!-- icon description -->
-                <h6>office</h6>
-                <!-- icon description -->
-            </li>
-            <li class="item">
-                <!-- icon -->
-                <div class="icon"style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                    <img src="src/assets/icons/indesign.png" alt="icon : indesign" style="width: 100px; height: 100px">
-                    <!-- icon img -->
-                </div>
-                <!-- icon -->
-
-                <!-- icon description -->
-                <h6>illustrator</h6>
-                <!-- icon description -->
-
-            </li>
-            <!-- item -->
-        </ul>
-        <!-- list -->
+         
 
         </article>
 
@@ -321,7 +374,7 @@
     <!-- sections [ singular ] -->
 
     <!-- section wrapper -->
-    <section class="section-y">
+    <section class="section-y" id="env">
 
         <!-- swiper container -->
         <div class="swiper-container">
@@ -331,30 +384,37 @@
             
                 <!-- slides -->
                 <div class="swiper-slide">
-                    <!-- Slide 1 --><!-- Slide 1 --><!-- Slide 1 -->
 
-                    <!-- project title -->
-                    <h2 class="title">Environmental Expedition Centre</h2>
-                    <!-- project title -->
-        
-                    <!-- text -->
-                    <p class="text">
-                        This proposed environmental and research center gravitates around a journey directing the audience young and old on a path towards environmental discovery and resolution. The dominate feature of this proposal is the stone wall dissecting the private and open spaces which defines a clear directional focus guiding the circulation of individuals as they traverse throughout the site. The design follows four key checkpoints which inform, define and educate individuals to identify culture significance and a strong focus on sustainable change. 
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- project title -->
+                        <h2 class="title">Environmental Expedition <br> Centre</h2>
+                        <!-- project title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+                            This proposed environmental and research center gravitates around a journey directing the audience young and old on a path towards environmental discovery and resolution. The dominate feature of this proposal is the stone wall dissecting the private and open spaces which defines a clear directional focus guiding the circulation of individuals as they traverse throughout the site. The design follows four key checkpoints which inform, define and educate individuals to identify culture significance and a strong focus on sustainable change. 
+                        
+                        </p>
+                        <!-- text -->
+                        <!-- text hidden -->
+                        <p class="text text-hidden" id="more-environment-text">
+                            The design also consists of four materials which fit its checkpoint counterpart, using natural materials such as stone, grass and timber help strengthen the key focus of the design proposal. The exhibition room is surrounded by a tin material which is used in agricultural structures around Fyans ford a subtle play on the importance of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future but a rich understanding of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future nut a rich understanding of culture and history that binds the world into what we see today.
+                        </p>
+                        <!-- text hidden -->
+                    </div>
+                    <div class="slide-panels">
+                        
+                    </div>
+                    <!-- slide panels -->
                     
-                    </p>
-                    <!-- text -->
-
-                    <!-- text hidden -->
-                    <p class="text text-hidden" id="more-environment-text">
-                        The design also consists of four materials which fit its checkpoint counterpart, using natural materials such as stone, grass and timber help strengthen the key focus of the design proposal. The exhibition room is surrounded by a tin material which is used in agricultural structures around Fyans ford a subtle play on the importance of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future but a rich understanding of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future nut a rich understanding of culture and history that binds the world into what we see today.
-                    </p>
-                    <!-- text hidden -->
 
                     <!-- btn more -->
-                    <button class="more" id="more-environment">more</button>
+                    <!-- <button class="more" id="more-environment">more</button> -->
                     <!-- btn more -->
 
-                    <!-- Slide 1 --><!-- Slide 1 --><!-- Slide 1 -->
+                    <!-- slide 1 --><!-- slide 1 --><!-- slide 1 -->
                 </div>
                 <div class="swiper-slide">
                     <!-- Slide 2 --><!-- Slide 2 --><!-- Slide 2 -->
@@ -417,28 +477,25 @@
 
                 <!-- slides -->
                 <div class="swiper-slide" id="thouse__ID">
-                    <!-- Slide1 intro --><!-- Slide1 intro --><!-- Slide1 intro -->
-                    <!-- title -->
-                    <h2 class="title">T House</h2>
-                    <!-- title -->
 
-                    <!-- text -->
-                    <p class="text">
-                        This building form was chosen by our teachers for this project, however we were instructed to choose our own cladding material and the building fabric, for this project we chose to use steel as our structure choice, this project comes with working drawings which depict our independent drawings which delves into the construction terminology and its features. The design’s site pitch's quite heavily and the buildings features provide adequate structure and support to successfully be built using the foundation below.
-                    </p>
-                    <!-- text -->
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- title -->
+                        <h2 class="title">T House</h2>
+                        <!-- title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+                            This building form was chosen by our teachers for this project, however we were instructed to choose our own cladding material and the building fabric, for this project we chose to use steel as our structure choice, this project comes with working drawings which depict our independent drawings which delves into the construction terminology and its features. The design’s site pitch's quite heavily and the buildings features provide adequate structure and support to successfully be built using the foundation below.
+                        </p>
+                        <!-- text -->
+                    </div>
+                    <div class="slide-panels">
 
-                    <!-- text hidden -->
-                    <!-- <p class="text text-hidden" id="more-thouse-text">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
-                    <!-- text hidden -->
+                    </div>
+                    <!-- slide panels -->
 
-                    <!-- btn more -->
-                    <button class="more" id="more-thouse">more</button>
-                    <!-- btn more -->
-
-                    <!-- Slide1 intro --><!-- Slide1 intro --><!-- Slide1 intro -->
                 </div>
                 <div class="swiper-slide">
                     <!-- Slide1 1 --><!-- Slide1 1 --><!-- Slide1 1 -->
@@ -520,36 +577,45 @@
             
                 <!-- slides -->
                 <div class="swiper-slide">
-                    <!-- slide intro --><!-- slide intro --><!-- slide intro -->
-                    <!-- title -->
-                    <h2 class="title">bath house</h2>
-                    <!-- title -->
-                    
-                    <!-- text -->
-                    <p class="text">
+
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- title -->
+                        <h2 class="title">bath house</h2>
+                        <!-- title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+                            
+                            This design explores the intricacies of personal and open spaces within
+                            confined spaces. This bath house design focuses on such allowing for
+                            those to express themselves in a specific way that outlines their intentions.
+                            The bath house hosts a relaxing environment for those that wish to seek fulfillment,
+                            from a hard-working day to a place of inner piece this bathhouse provides such a place.
+
+                        </p>
+                        <!-- text -->
+
+                        <!-- hidden text -->
+                        <p class="text text-hidden" id="more-bath-text">
+                            The bathhouse consists of exterior and interior pools that suit purpose within the complex,
+                            the site was designed with the intention of beautiful qualities juxtaposed with the arguably harsh
+                            climate of the everyday working world. The site is facilitated in Geelong along the Barwon River a beautiful
+                            rich environment of vegetation which provides a quality of comfort, the design facilitates such. 
+                            The design seems hidden with the use of green roofs to disguise its structure, which further develops a
+                            connection with its peaceful private personality, allowing for its demographic to feel the effects of relaxation.
+                        </p>
+                        <!-- hidden text -->    
+
+                    </div>
+                    <div class="slide-panels">
                         
-                        This design explores the intricacies of personal and open spaces within
-                        confined spaces. This bath house design focuses on such allowing for
-                        those to express themselves in a specific way that outlines their intentions.
-                        The bath house hosts a relaxing environment for those that wish to seek fulfillment,
-                        from a hard-working day to a place of inner piece this bathhouse provides such a place.
-
-                    </p>
-                    <!-- text -->
-
-                    <!-- hidden text -->
-                    <p class="text text-hidden" id="more-bath-text">
-                        The bathhouse consists of exterior and interior pools that suit purpose within the complex,
-                        the site was designed with the intention of beautiful qualities juxtaposed with the arguably harsh
-                        climate of the everyday working world. The site is facilitated in Geelong along the Barwon River a beautiful
-                        rich environment of vegetation which provides a quality of comfort, the design facilitates such. 
-                        The design seems hidden with the use of green roofs to disguise its structure, which further develops a
-                        connection with its peaceful private personality, allowing for its demographic to feel the effects of relaxation.
-                    </p>
-                    <!-- hidden text -->
+                    </div>
+                    <!-- slide panels -->
 
                     <!-- btn more -->
-                    <button class="more" id="more-bath">more</button>
+                    <!-- <button class="more" id="more-bath">more</button> -->
                     <!-- btn more -->
 
                      <!-- slide intro --><!-- slide intro --><!-- slide intro -->
@@ -614,30 +680,38 @@
             
                 <!-- slides -->
                 <div class="swiper-slide">
+
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- title -->
+                        <h2 class="title">environmental facility</h2>
+                        <!-- title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+
+                            This design reflects a painting that depicts a beautiful Australian landscape, from viewing we designed to facilitate its vegetational qualities and its function, allowing for abstract though to flow through my design’s feel. I designed around a beautiful gum tree, the central piece to this design that depicts nature, its form and feel is magnificent the perfect depiction of such. The design rotates around the tree always allowing for perfect view in each segment of the design. 
+                        
+                        </p>
+                        <!-- text -->
+                        <!-- hidden text -->
+                        <p class="text text-hidden" id="more-facility-text">
+                            The designs importance is to research and understand, to study and to inform of its guests on the history of aboriginal culture and the environment that needs to be protected, alongside its species the flora and fauna of the area is also studied within this structure and is the perfect environment to do so. The site also hosts a beautiful mural designed by aboriginals and inspired from such in color to circulate its guests. The design structure and its cladding are beautiful and elegant, using locally sourced materials to structure its importance of sustainable design.
+                        </p>
+                        <!-- hidden text -->    
+                    </div>
+                    <div class="slide-panels">
+                        
+                    </div>
+                    <!-- slide panels -->
+
+
                     <!-- slide intro --><!-- slide intro --><!-- slide intro -->
-                    <!-- title -->
-                    <h2 class="title">environmental facility</h2>
-                    <!-- title -->
-
-                    <!-- text -->
-                    <p class="text">
-
-                        This design reflects a painting that depicts a beautiful Australian landscape, from viewing we designed to facilitate its vegetational qualities and its function, allowing for abstract though to flow through my design’s feel. I designed around a beautiful gum tree, the central piece to this design that depicts nature, its form and feel is magnificent the perfect depiction of such. The design rotates around the tree always allowing for perfect view in each segment of the design. 
-                    
-                    </p>
-                    <!-- text -->
-
-                    <!-- hidden text -->
-                    <p class="text text-hidden" id="more-facility-text">
-                        The designs importance is to research and understand, to study and to inform of its guests on the history of aboriginal culture and the environment that needs to be protected, alongside its species the flora and fauna of the area is also studied within this structure and is the perfect environment to do so. The site also hosts a beautiful mural designed by aboriginals and inspired from such in color to circulate its guests. The design structure and its cladding are beautiful and elegant, using locally sourced materials to structure its importance of sustainable design.
-                    </p>
-                    <!-- hidden text -->
-
                     <!-- btn more -->
-                    <button class="more" id="more-facility">more</button>
+                    <!-- <button class="more" id="more-facility">more</button> -->
                     <!-- btn more -->
-
-                    <!-- slide intro --><!-- slide intro --><!-- slide intro -->
+                
                 </div>
                 <div class="swiper-slide">
                     <!-- Slide 1 --><!-- Slide 1 --><!-- Slide 1 -->
@@ -704,25 +778,34 @@
             
                 <!-- slides -->
                 <div class="swiper-slide" id="everist__ID">
+
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- project title -->
+                        <h2 class="title">everist design center</h2>
+                        <!-- project title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+                            This proposed environmental and research center gravitates around a journey directing the audience young and old on a path towards environmental discovery and resolution. The dominate feature of this proposal is the stone wall dissecting the private and open spaces which defines a clear directional focus guiding the circulation of individuals as they traverse throughout the site. The design follows four key checkpoints which inform, define and educate individuals to identify culture significance and a strong focus on sustainable change. 
+                        </p>
+                        <!-- text -->
+                        <!-- hidden text -->
+                        <p class="text text-hidden" id="more-everist-text">
+                            The design also consists of four materials which fit its checkpoint counterpart, using natural materials such as stone, grass and timber help strengthen the key focus of the design proposal. The exhibition room is surrounded by a tin material which is used in agricultural structures around Fyans ford a subtle play on the importance of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future but a rich understanding of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future nut a rich understanding of culture and history that binds the world into what we see today.
+                        </p>
+                        <!-- hidden text -->
+                    </div>
+                    <div class="slide-panels">
+                    
+                    </div>
+                    <!-- slide panels -->
+
+
                     <!-- slide intro --><!-- slide intro --><!-- slide intro -->
-                    <!-- project title -->
-                    <h2 class="title">everist design center</h2>
-                    <!-- project title -->
-        
-                    <!-- text -->
-                   <p class="text">
-                       This proposed environmental and research center gravitates around a journey directing the audience young and old on a path towards environmental discovery and resolution. The dominate feature of this proposal is the stone wall dissecting the private and open spaces which defines a clear directional focus guiding the circulation of individuals as they traverse throughout the site. The design follows four key checkpoints which inform, define and educate individuals to identify culture significance and a strong focus on sustainable change. 
-                   </p>
-                   <!-- text -->
-
-                   <!-- hidden text -->
-                   <p class="text text-hidden" id="more-everist-text">
-                       The design also consists of four materials which fit its checkpoint counterpart, using natural materials such as stone, grass and timber help strengthen the key focus of the design proposal. The exhibition room is surrounded by a tin material which is used in agricultural structures around Fyans ford a subtle play on the importance of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future but a rich understanding of culture and history. The resolution of individuals who visit strongly focuses on not just a sustainable future nut a rich understanding of culture and history that binds the world into what we see today.
-                   </p>
-                   <!-- hidden text -->
-
-                   <!-- btn more -->
-                   <button class="more" id="more-everist">more</button>
+                    <!-- btn more -->
+                   <!-- <button class="more" id="more-everist">more</button> -->
                    <!-- btn more -->
 
                     <!-- slide intro --><!-- slide intro --><!-- slide intro -->
@@ -765,12 +848,12 @@
                     <img src="src/assets/images/Everist_Design/7.jpg" alt="x07" class="working-drawing" loading="lazy">    
                     <!-- Slide 7 --><!-- Slide 7 --><!-- Slide 7 -->
                 </div>
-                <div class="swiper-slide" class="working-drawing">
+                <div class="swiper-slide">
                     <!-- Slide 8 --><!-- Slide 8 --><!-- Slide 8 -->
                     <img src="src/assets/images/Everist_Design/8.jpg" alt="x08" class="working-drawing" loading="lazy">
                     <!-- Slide 8 --><!-- Slide 8 --><!-- Slide 8 -->
                 </div>
-                <div class="swiper-slide" class="working-drawing">
+                <div class="swiper-slide">
                     <!-- Slide 9 --><!-- Slide 9 --><!-- Slide 9 -->
                     <img src="src/assets/images/Everist_Design/9.jpg" alt="x08" class="working-drawing" loading="lazy">
                     <!-- Slide 9 --><!-- Slide 9 --><!-- Slide 9 -->
@@ -810,25 +893,34 @@
             
                 <!-- slides -->
                 <div class="swiper-slide">
+
+                    <!-- slide panels -->
+                    <div class="slide-panels">
+                        <!-- title -->
+                        <h2 class="title">malt house exhibition</h2>
+                        <!-- title -->
+                    </div>
+                    <div class="slide-panels">
+                        <!-- text -->
+                        <p class="text">
+                            This design facilitates an exhibition space, using the old Malt house located in Geelong, we were free to design a facility that reflects on the site, I chose this time to develop an understanding of its history and decided to delve into an abstract thought of our five senses, being vision, hearing, touch, smell and taste. The design allows for an abstract interactive exhibition space with partition walls for development and interchangeable themes depending on its use. I Decided to not demolish the Malt house building given its rich history for Geelong, so the design interacts with the interior structure allowing for plenty of space to use creatively.
+                        </p>
+                        <!-- text -->
+                        <!-- hidden text -->
+                        <p class="text text-hidden" id="more-malt-text">
+                            The partition walls were extremely important to my development as each room had to suite its function, for example the sound room needed to be insulated well to develop a space that purely focuses on our perception of sound. The partition walls dissected with 5 insulating properties to help provide such a feel, these include fabrics, soundproof boards, mass loaded vinyl, sound insulated wool & timber studs to allow for structure. The design focuses heavily on a deep and meaningful understanding on our senses allowing for participants to explore their mind body and soul. 
+                        </p>
+                        <!-- hidden text -->
+                    </div>
+                    <div class="slide-panels">
+                        
+                    </div>
+                    <!-- slide panels -->
+                    
                     <!-- slide intro --><!-- slide intro --><!-- slide intro -->
-                    <!-- title -->
-                    <h2 class="title">malt house exhibition</h2>
-                    <!-- title -->
-
-                    <!-- text -->
-                    <p class="text">
-                        This design facilitates an exhibition space, using the old Malt house located in Geelong, we were free to design a facility that reflects on the site, I chose this time to develop an understanding of its history and decided to delve into an abstract thought of our five senses, being vision, hearing, touch, smell and taste. The design allows for an abstract interactive exhibition space with partition walls for development and interchangeable themes depending on its use. I Decided to not demolish the Malt house building given its rich history for Geelong, so the design interacts with the interior structure allowing for plenty of space to use creatively.
-                    </p>
-                    <!-- text -->
-
-                    <!-- hidden text -->
-                    <p class="text text-hidden" id="more-malt-text">
-                        The partition walls were extremely important to my development as each room had to suite its function, for example the sound room needed to be insulated well to develop a space that purely focuses on our perception of sound. The partition walls dissected with 5 insulating properties to help provide such a feel, these include fabrics, soundproof boards, mass loaded vinyl, sound insulated wool & timber studs to allow for structure. The design focuses heavily on a deep and meaningful understanding on our senses allowing for participants to explore their mind body and soul. 
-                    </p>
-                    <!-- hidden text -->
-
+                    
                     <!-- btn more -->
-                    <button class="more" id="more-malt">more</button>
+                    <!-- <button class="more" id="more-malt">more</button> -->
                     <!-- btn more -->
 
                     <!-- slide intro --><!-- slide intro --><!-- slide intro -->
@@ -885,21 +977,22 @@
     <!-- section wrapper -->
     <section class="section-y" id="contact">
 
-        <!-- contact page --><!-- contact page --><!-- contact page -->
-        <h2 class="heading">contact page</h2>
+        <div class="slide-panels">
+            <!-- title -->
+            <h2 class="heading">contact info</h2>
+            <!-- title -->
 
-        <p class="text">
-            Hope you enjoyed my online portfolio as much as i loved creating it, if you're interesting in working 
-            with me please send me an email below and of course my resume is available too, if you're interested 
-            in viewing more of my work try browsing to my A3 Portfolio, alongside this my Instagram which delves 
-            into my day to day life of Architectural Drafting.
-        </p>
-        <!-- contact page --><!-- contact page --><!-- contact page -->
-
-        
-
-
-        <!-- list -->
+            <!-- text -->
+            <p class="text">
+                Hope you enjoyed my online portfolio as much as i loved creating it, if you're interesting in working 
+                with me please send me an email below and of course my resume is available too, if you're interested 
+                in viewing more of my work try browsing to my A3 Portfolio, alongside this my Instagram which delves 
+                into my day to day life of Architectural Drafting.
+            </p>
+            <!-- text -->
+        </div>
+        <div class="slide-panels">
+            <!-- list -->
         <ul class="list">
             <!-- items -->
             <li class="items">
@@ -965,33 +1058,14 @@
             <!-- items -->
         </ul>
         <!-- list -->
+        </div>
+    
+        
+        
 
-        <!-- signiture -->
-        <!-- <p class="signiture">
-            thank you for visiting this page
-        </p> -->
-        <!-- signiture -->
-
+        
     </section>
     <!-- section wrapper -->
-
-    <!-- modal -->
-    <section class="modal" style="display: none;">
-
-        <!-- modal exit -->
-        <button class="btn">exit</button>
-        <!-- modal exit -->
-
-        <!-- modal image placement -->
-        <img src="" alt="" class="modal-img" id="img">
-        <!-- modal image placement -->
-
-        <!-- modal caption text -->
-        <p id="text"></p>
-        <!-- modal caption text -->
-
-    </section>
-    <!-- modal -->
 
 </div>
 <!-- page || wrapper y -->
