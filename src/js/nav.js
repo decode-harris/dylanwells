@@ -190,10 +190,10 @@ function stateChange(e) {
 
         exit.style.display = 'none';
 
-        let hidden = document.querySelectorAll('.text-hidden');
-        hidden.forEach(element => {
-            element.style.display = 'flex';
-        });
+        // let hidden = document.querySelectorAll('.text-hidden');
+        // hidden.forEach(element => {
+        //     element.style.display = 'flex';
+        // });
 
         // // apply default desktop class name
         // nav.setAttribute('class', 'nav');

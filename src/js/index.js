@@ -136,7 +136,7 @@ const introduction = document.querySelector('#introduction');
 down.addEventListener('click', ()=> {
 
     // navigates window to introduction section with applied behavior of smooth scrolling
-    introduction.scrollIntoView( {behavior: 'smooth'});
+    introduction.scrollIntoView( {ScrollBehavior: 'smooth'});
     
     // test
     console.log('btn clicked');

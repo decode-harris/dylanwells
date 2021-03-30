@@ -43,7 +43,7 @@ html {
 }
 .wrapper-y {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     
     overflow-x: hidden;
     overflow-y: scroll;
@@ -58,7 +58,7 @@ html {
     flex-direction: row;
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     
     overflow-x: scroll;
     overflow-y: hidden;
@@ -70,7 +70,7 @@ html {
 .section-x,
 .section-y {
     height: 100vh;
-    min-width: 100vw;
+    width: 100%;
 }
 
 .section-x, .section-y {
@@ -113,8 +113,7 @@ section {
     }
     .section-y {
         height: 100vh;
-        width: 100vw;
-        min-width: 100vw;
+        width: 100%;
 
         /* transition: all 2s ease-in; */
     }
