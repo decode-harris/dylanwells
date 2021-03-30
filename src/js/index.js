@@ -11,3 +11,28 @@ down.addEventListener('click', ()=> {
     
 
 });
+
+
+let analysis_bath = document.querySelector('#analysis-bath');
+let analysis_envi = document.querySelector('#analysis-envi');
+
+analysis_bath.addEventListener('click', ()=> {
+
+    // select pdf
+    let pdf = 'src/assets/documents/Analysis-BathHouse.pdf';
+
+    // open pdf
+    window.open(pdf);
+
+});
+
+analysis_envi.addEventListener('click', ()=> {
+
+    // select pdf
+    let pdf = 'src/assets/documents/Analysis-Environment.pdf';
+
+    // open pdf
+    window.open(pdf);
+
+});
+

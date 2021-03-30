@@ -94,7 +94,7 @@ function stateChange(e) {
             if (nav.style.width != '100%') {
                 
                 // change nav width to active [ 100% ] 
-                nav.style.width = '70%';
+                nav.style.width = '100%';
 
                 // get current position
                 pos = window.scrollY;
