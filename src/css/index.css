@@ -1073,7 +1073,7 @@ section .text {
 
         
     }
-    .list li {
+    .introduction .list li {
 
         /* display props [ flex - row - center - center ] */
         display: flex;
@@ -1093,11 +1093,11 @@ section .text {
         
         
     }
-    .list h6 {
+    .introduction  .list h6 {
         text-transform: uppercase;
         padding-top: var(--lg);
     }
-    .list .icon {
+    .introduction  .list .icon {
         
         display: flex;
         flex-direction: column;
@@ -1108,12 +1108,12 @@ section .text {
         width: 100%;
     
     }
-    .list .icon img {
+    .introduction .list .icon img {
         max-height: 90px;
         max-width: 90px;
         
     }
-    .list .icon h6 {
+    .introduction .list .icon h6 {
         display: flex;
     }
 
