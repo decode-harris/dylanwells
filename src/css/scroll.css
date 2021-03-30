@@ -83,16 +83,6 @@ html {
     /* border: 2px solid red; */
 }
 
-/* .section-y:nth-child(1) {background: red;}
-.section-y:nth-child(2) {background: orange;}
-.section-y:nth-child(3) {background: purple;}
-.section-y:nth-child(4) {background: blue;}
-
-.section-y:nth-child(1) {background: green;}
-.section-y:nth-child(2) {background: yellow;}
-.section-y:nth-child(3) {background: pink;}
-.section-y:nth-child(4) {background: lightcoral;} */
-
 section {
     display: flex;
     justify-content: center;
@@ -105,7 +95,7 @@ section {
 
 @media (min-width: 700px) {
 
-    .section-x {
+    /* .section-x {
         height: 100vh;
         width: 100%;
         min-width: 33vw;
@@ -115,8 +105,8 @@ section {
         height: 100vh;
         width: 100%;
 
-        /* transition: all 2s ease-in; */
-    }
+        
+    } */
 }
 
 @media (min-width: 800px) {
